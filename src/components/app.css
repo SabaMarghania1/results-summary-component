@@ -9,6 +9,7 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 ul {
@@ -18,4 +19,18 @@ ul {
 .container {
   width: 100%;
   font-family: "Hanken Grotesk", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 736px;
+    display: flex;
+    background-color: #fff;
+
+    border-radius: 32px;
+  }
+
+  body {
+    background: #ecf2ff;
+  }
 }
